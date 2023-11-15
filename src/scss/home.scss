@@ -1,0 +1,51 @@
+//====================================================================================================
+.hero {
+	background-color: $bgColor;
+	min-height: 100vh;
+	display: grid;
+	padding: toRem(80) toRem(15) toRem(60) toRem(15);
+	grid-template-columns: auto 1fr auto;
+	// .hero__image
+
+	&__image-ibg {
+		@include adaptiveValue('width', 412, 300, 0, $containerWidth, 991.98);
+		border-radius: toRem(25);
+		overflow: hidden;
+		img {
+			object-position: top;
+		}
+	}
+
+	// .hero__content
+
+	&__content {
+	}
+
+	// .hero__block-header
+
+	&__block-header {
+	}
+}
+.block-header {
+	// .block-header__title
+
+	&__title {
+	}
+
+	// .block-header__title--big
+
+	&__title--big {
+	}
+
+	// .block-header__title--white
+
+	&__title--white {
+	}
+
+	// .block-header__text
+
+	&__text {
+	}
+}
+
+//====================================================================================================
